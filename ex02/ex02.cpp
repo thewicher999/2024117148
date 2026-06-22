@@ -1,3 +1,4 @@
+
 const int ledPin = 2;
 unsigned long previousMillis = 0;
 const long interval = 500;
@@ -14,5 +15,6 @@ void loop() {
     previousMillis = currentMillis;
     ledState = !ledState;
     digitalWrite(ledPin, ledState);
+    Serial.println(ledState ? "LED ON" : "LED OFF");
   }
 }
