@@ -1,4 +1,4 @@
-const int ledPin = 2;  // ESP32∞Â‘ÿLED
+const int ledPin = 2;  // ESP32∞Â‘ÿled
 
 void setup() {
   pinMode(ledPin, OUTPUT);
