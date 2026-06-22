@@ -23,7 +23,7 @@ void loop() {
     digitalWrite(ledPin, LOW); 
     delay(200); 
   }
-  delay(500); // вжд╦╪Д╦Т
+  delay(500); // вжд╦╪Д╦Тz
 
   // === S: ╤лиа3╢н ===
   for(int i = 0; i < 3; i++) { 
